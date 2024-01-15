@@ -1,0 +1,5 @@
+docker build -t opencv_python .
+
+docker run -p 5000:5000 opencv_python
+
+get ip with ipconfig
